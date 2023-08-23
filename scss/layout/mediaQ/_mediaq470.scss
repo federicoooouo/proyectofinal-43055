@@ -1,0 +1,18 @@
+@media(max-width:470px){
+    .galeria-grids {
+    display: none;
+    }
+    main{
+        background-color: #c62fc690;
+        padding-bottom: 200px;
+    }
+    .talles{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-container{
+        margin-left: 9.375rem;
+    
+    
+    }
+}

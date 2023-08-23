@@ -1,0 +1,15 @@
+@media(max-width:1200px) {
+    .section-uno .h1index {
+        font-size: 50px;
+
+    }
+    .galeria-grids {
+        margin-left: 2.5rem;
+        gap: 1.875rem;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: auto auto;
+        grid-template-areas:
+            "div1 div2"
+            "div3 div4";
+    }   
+}

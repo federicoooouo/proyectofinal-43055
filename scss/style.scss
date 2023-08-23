@@ -1,0 +1,24 @@
+/**variables mixins y funciones**/
+@import "./utilities/variables";
+@import "./utilities/mixins";
+
+
+/**codigo**/
+
+@import "./base/reset";
+@import "./base/typo";
+@import "./layout/hearder-index";
+@import "./layout/main-index";
+@import "./layout/footer-index";
+@import "./layout/main-productos";
+@import "./components/bootstraps";
+
+/**mediaqueris siempre en orden**/
+@import "./layout/mediaQ/mediaq2560";
+@import "./layout/mediaQ/mediaq1200";
+@import "./layout/mediaQ/mediaq1054";
+@import "./layout/mediaQ/mediaq740";
+@import "./layout/mediaQ/mediaq-669";
+@import "./layout/mediaQ/mediaq614";
+@import "./layout/mediaQ/mediaq470";
+@import "./layout/mediaQ/mediaQ360";

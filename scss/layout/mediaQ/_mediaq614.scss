@@ -1,0 +1,20 @@
+@media(max-width:614px){
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: auto auto auto;
+        grid-template-areas:"card1"
+                            "card2"
+                            "card3"
+                            "card4"
+                            ;
+        align-items: center;
+        margin-left: 12.5rem;
+        margin-right: 50px;
+        gap: 1.875rem;
+    }   
+    .main-productos{
+        height: 104.375rem;
+    }
+
+    } 

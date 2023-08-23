@@ -1,0 +1,29 @@
+.header-index {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    div{
+        img{
+            width: 4.375rem;
+        }
+    }
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 1.5625rem;
+    li{
+        a{
+            text-decoration: none;
+            letter-spacing: 7px;
+            color: white;
+            &:hover{
+                color: rgb(240, 124, 191);
+            }
+        }
+    }
+
+}
