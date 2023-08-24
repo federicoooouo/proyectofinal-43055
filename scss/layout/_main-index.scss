@@ -16,6 +16,11 @@
             width: 12.5rem;
             background-color:$colores-botones;
         }
+        button:hover{
+            transform: scale(1.2,1.4);
+            transition: 0.5s;
+        }
+        }
         .pindex{
                 font-family: 'Oxygen', sans-serif;
                 letter-spacing: 10px;
@@ -24,9 +29,24 @@
                 font-size: 1.875rem;
         }
     }
-}
+
 
 .galeria-grids{
-@include grid(repeat(4,25%),auto auto auto,center,center,"div1 div2 div3 div4",6.25rem)
-
+@include grid(repeat(4,25%),auto auto auto,center,center,"div1 div2 div3 div4",6.25rem);
+.div1:hover{
+    transform: scale(1.2,1.4);
+    transition: 1s;
+}
+.div2:hover{
+    transform: scale(1.2,1.4);
+    transition: 1s;
+}
+.div3:hover{
+    transform: scale(1.2,1.4);
+    transition: 1s;
+}
+.div4:hover{
+    transform: scale(1.2,1.4);
+    transition: 1s;
+}
 }

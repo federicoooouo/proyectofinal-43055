@@ -1,13 +1,17 @@
 .footer-index{
 display: flex;
+flex-direction: row;
 justify-content: center;
+align-items: center;
+
 }
 .h3form{
     color: $colores-tipografias;
 }
 
 footer{
-    background-image: linear-gradient(to right, #642656, #85424d, #936653, #998a6e, #a4aa98);
-    padding-top: 200px;
+    background-image: radial-gradient(circle, #642656, #532449, #43213c, #341e30, #251a23);
+    padding-top: 9.375rem;
+    object-fit: contain;
     
 }

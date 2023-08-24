@@ -4,13 +4,13 @@
     justify-content: center;
     height: 200px;
     align-items: center;
+    gap: .9375rem;
     div{
         img{
             width: 4.375rem;
         }
     }
 }
-
 .nav-links{
     display: flex;
     list-style: none;
@@ -25,5 +25,10 @@
             }
         }
     }
-
+}
+.nav-links{
+    li:hover{
+        transform: scale(1.2,1.4);
+        transition: 0.5s;
+    }
 }
