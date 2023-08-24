@@ -7,3 +7,11 @@
     grid-template-areas: $area;
     padding-bottom: $padding;
 }
+@mixin flex($direction,$justify,$aling,$paddingb,$paddingt){
+    display: flex;
+    flex-direction:$direction ;
+    justify-content:$justify ;
+    align-content:$aling ;
+    padding-bottom:$paddingb ;
+    padding-top:$paddingt ;
+}

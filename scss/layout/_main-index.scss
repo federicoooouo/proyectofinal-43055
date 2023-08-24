@@ -14,14 +14,19 @@
             padding: 1.25rem;
             border-radius: 1.875rem;
             width: 12.5rem;
-            background-color: white;
+            background-color:$colores-botones;
         }
         .pindex{
                 font-family: 'Oxygen', sans-serif;
                 letter-spacing: 10px;
+                padding-bottom: .625rem;
+                color:$colores-tipografias;
+                font-size: 1.875rem;
         }
     }
 }
 
 .galeria-grids{
-@include grid(repeat(4,25%),auto auto auto,center,center,"div1 div2 div3 div4",6.25rem)}
+@include grid(repeat(4,25%),auto auto auto,center,center,"div1 div2 div3 div4",6.25rem)
+
+}

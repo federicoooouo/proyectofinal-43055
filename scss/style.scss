@@ -1,10 +1,7 @@
 /**variables mixins y funciones**/
 @import "./utilities/variables";
 @import "./utilities/mixins";
-
-
 /**codigo**/
-
 @import "./base/reset";
 @import "./base/typo";
 @import "./layout/hearder-index";
@@ -12,7 +9,6 @@
 @import "./layout/footer-index";
 @import "./layout/main-productos";
 @import "./components/bootstraps";
-
 /**mediaqueris siempre en orden**/
 @import "./layout/mediaQ/mediaq2560";
 @import "./layout/mediaQ/mediaq1200";

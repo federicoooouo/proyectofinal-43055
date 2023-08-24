@@ -3,11 +3,10 @@
     padding-top: 18.75rem;
 }
 .seccion-formulariosdos{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    padding-top: 12.5rem;
+@extend .section-uno;
+padding-bottom: none;
+padding-top: 100px;
 }
 .btn-warning {
-    background-color: violet;
+    background-color:$colores-botones;
 }

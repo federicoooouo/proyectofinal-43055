@@ -1,7 +1,7 @@
 # Tercera entrega-Coderhouse
 
 
-#vitrauxcloths es una tienda virtual de accesorios y prendas# 
+vitrauxcloths es una tienda virtual de accesorios y prendas
 
 ## Herramientas aplicadas
 - html

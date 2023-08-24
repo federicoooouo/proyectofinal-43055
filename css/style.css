@@ -28,22 +28,25 @@
     .nav-links li a:hover {
       color: #f07cbf; }
 
-.section-uno {
+.section-uno, .seccion-formulariosdos {
   display: flex;
   justify-content: center;
   text-align: center;
   padding-bottom: 100px; }
-  .section-uno div h1 {
+  .section-uno div h1, .seccion-formulariosdos div h1 {
     font-size: 150px;
-    color: hwb(330 7% 92%); }
-  .section-uno div button {
+    color: black; }
+  .section-uno div button, .seccion-formulariosdos div button {
     padding: 1.25rem;
     border-radius: 1.875rem;
     width: 12.5rem;
-    background-color: white; }
-  .section-uno div .pindex {
+    background-color: #9c52c7; }
+  .section-uno div .pindex, .seccion-formulariosdos div .pindex {
     font-family: 'Oxygen', sans-serif;
-    letter-spacing: 10px; }
+    letter-spacing: 10px;
+    padding-bottom: .625rem;
+    color: black;
+    font-size: 1.875rem; }
 
 .galeria-grids {
   display: grid;
@@ -59,7 +62,7 @@
   justify-content: center; }
 
 .h3form {
-  color: hwb(330 7% 92%); }
+  color: black; }
 
 footer {
   background-image: linear-gradient(to right, #642656, #85424d, #936653, #998a6e, #a4aa98);
@@ -79,11 +82,12 @@ footer {
   .talles li .btn-talles {
     border-radius: 1.875rem;
     width: 6.25rem;
-    background-color: violet;
+    background-color: #9c52c7;
     height: 3.125rem; }
 
 .card-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   align-content: center;
   padding-bottom: 100px;
@@ -110,13 +114,11 @@ footer {
   padding-top: 18.75rem; }
 
 .seccion-formulariosdos {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding-top: 12.5rem; }
+  padding-bottom: none;
+  padding-top: 100px; }
 
 .btn-warning {
-  background-color: violet; }
+  background-color: #9c52c7; }
 
 /**mediaqueris siempre en orden**/
 @media (max-width: 2560px) {
@@ -124,7 +126,7 @@ footer {
     height: 1000px; } }
 
 @media (max-width: 1200px) {
-  .section-uno .h1index {
+  .section-uno .h1index, .seccion-formulariosdos .h1index {
     font-size: 50px; }
   .galeria-grids {
     margin-left: 2.5rem;
