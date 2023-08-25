@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: red solid 2px;
   font-family: 'Bebas Neue', sans-serif; }
 
 .header-index {
@@ -140,7 +139,7 @@ footer {
   justify-content: space-evenly;
   align-content: center;
   padding-bottom: 100px;
-  padding-top: 100px; }
+  padding-top: none; }
   .card-containerdos .card2 {
     width: 10.625rem;
     height: 300px;
@@ -160,6 +159,16 @@ footer {
     height: 200px;
     overflow: hidden; }
 
+.div-tituloproducto {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-bottom: 10px; }
+  .div-tituloproducto .titulo-producto {
+    font-size: 50px;
+    color: black; }
+
 .seccion-formularios {
   display: flex;
   padding-top: 18.75rem; }
@@ -167,6 +176,10 @@ footer {
 .seccion-formulariosdos {
   padding-bottom: none;
   padding-top: 100px; }
+
+p {
+  font-size: 40px;
+  color: black; }
 
 .btn-warning {
   background-color: #9c52c7; }
