@@ -11,7 +11,7 @@
   background-color: black;
   display: flex;
   justify-content: center;
-  height: 200px;
+  height: 130px;
   align-items: center;
   gap: .9375rem; }
   .header-index div img {
@@ -87,14 +87,100 @@
 
 footer {
   background-image: radial-gradient(circle, #642656, #532449, #43213c, #341e30, #251a23);
-  padding-top: 9.375rem;
   object-fit: contain; }
 
+.p-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
 .main-productos {
-  background-image: url(https://images.unsplash.com/photo-1533620495600-1af835e537f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHZpZHJpb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
-  background-size: contain;
+  background: url(https://images.unsplash.com/photo-1533620495600-1af835e537f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fHZpZHJpb3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
   width: 100%;
   height: 37.5rem; }
+
+.section-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px; }
+  .section-login .login {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(250, 251, 250, 0.922);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 30px 40px; }
+    .section-login .login h1 {
+      font-size: 30px;
+      text-align: center; }
+    .section-login .login .input-box {
+      position: relative;
+      width: 100%;
+      height: 50px;
+      margin: 30px 0; }
+    .section-login .login .input-box input {
+      width: 100%;
+      height: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      border: 2px solid #e1e1ff33;
+      border-radius: 40px;
+      font-size: 16px;
+      color: #ffffff;
+      padding: 20px 45px 20px 20px; }
+    .section-login .login .input-box input::placeholder {
+      color: #ffffff; }
+    .section-login .login .input-box i {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 20px; }
+    .section-login .login .remember-forgot {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14.5px;
+      margin: -15px 0px 15px; }
+    .section-login .login .btn-login {
+      width: 100%;
+      height: 50px;
+      background: #ffffff;
+      border: none;
+      outline: none;
+      border-radius: 40px;
+      box-shadow: 0 0 10px #0000001a;
+      cursor: pointer;
+      font-size: 16px;
+      color: #333;
+      font-weight: 600; }
+    .section-login .login .register-link {
+      font-size: 14.5px;
+      text-align: center;
+      margin: 20px 0 15px; }
+    .section-login .login .register-link a {
+      color: #ffffff; }
+    .section-login .login .register-link {
+      color: #ffffff; }
+
+.register-link p a:hover {
+  text-decoration: underline; }
+
+.remember-forgot label input {
+  accent-color: #ffffff;
+  margin-right: 3px; }
+
+.remember-forgot a {
+  color: #ffffff;
+  text-decoration: none; }
+
+.remember-forgot a:hover {
+  text-decoration: underline; }
 
 .talles {
   display: flex;
@@ -171,11 +257,10 @@ footer {
 
 .seccion-formularios {
   display: flex;
-  padding-top: 18.75rem; }
+  padding-top: 100px; }
 
 .seccion-formulariosdos {
-  padding-bottom: none;
-  padding-top: 100px; }
+  padding-bottom: 200px; }
 
 p {
   font-size: 40px;

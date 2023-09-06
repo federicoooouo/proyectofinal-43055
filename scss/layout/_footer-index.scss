@@ -11,7 +11,14 @@ align-items: center;
 
 footer{
     background-image: radial-gradient(circle, #642656, #532449, #43213c, #341e30, #251a23);
-    padding-top: 9.375rem;
+
     object-fit: contain;
     
+}
+
+.p-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

@@ -1,11 +1,11 @@
 .seccion-formularios{
     display: flex;
-    padding-top: 18.75rem;
+    padding-top: 100px
+    
 }
 .seccion-formulariosdos{
 @extend .section-uno;
-padding-bottom: none;
-padding-top: 100px;
+padding-bottom: 200px;
 }
 p{
     font-size: 40px;
