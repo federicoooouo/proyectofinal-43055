@@ -5,7 +5,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Bebas Neue', sans-serif; }
+  font-family: 'Bebas Neue', sans-serif;
+  border: red solid 2px; }
 
 .header-index {
   background-color: black;
@@ -62,7 +63,8 @@
   justify-content: center;
   align-content: center;
   grid-template-areas: "div1 div2 div3 div4";
-  padding-bottom: 6.25rem; }
+  padding-bottom: 6.25rem;
+  justify-items: center; }
   .galeria-grids .div1:hover {
     transform: scale(1.2, 1.4);
     transition: 1s; }
@@ -87,6 +89,7 @@
 
 footer {
   background-image: radial-gradient(circle, #642656, #532449, #43213c, #341e30, #251a23);
+  height: 20vh;
   object-fit: contain; }
 
 .p-footer {
@@ -100,8 +103,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 37.5rem; }
+  width: 100%; }
 
 .section-login {
   display: flex;
@@ -269,10 +271,43 @@ p {
 .btn-warning {
   background-color: #9c52c7; }
 
+.c-carrusel {
+  height: 480px;
+  width: 100%; }
+
+.c-img {
+  height: auto;
+  object-fit: cover;
+  width: 100%; }
+
 /**mediaqueris siempre en orden**/
-@media (max-width: 2560px) {
+@media (max-width: 2561px) {
   .main-productos {
     height: 1000px; } }
+
+@media (max-width: 2562px) {
+  .main-productos {
+    height: 1000px; } }
+
+@media (max-width: 2600px) {
+  .main-productos {
+    height: 1000px; } }
+
+@media (max-width: 2600px) and (max-width: 2690px) {
+  .main-productos {
+    height: 1500px; } }
+
+@media (max-width: 2801px) {
+  .main-productos {
+    height: 1600px; } }
+
+@media (max-width: 2901px) {
+  .main-productos {
+    height: 1600px; } }
+
+@media (max-width: 3001px) {
+  .main-productos {
+    height: 1600px; } }
 
 @media (max-width: 1200px) {
   .section-uno .h1index, .seccion-formulariosdos .h1index {
@@ -291,7 +326,14 @@ p {
     grid-template-areas: "div1" "div2" "div3" "div4"; }
   .nav-links {
     flex-direction: column;
-    gap: 5px; } }
+    gap: 5px; }
+  .card-container .grid-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+.card-containerdos .grid-productos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
 
 @media (max-width: 740px) {
   .card-container {
@@ -300,7 +342,8 @@ p {
     grid-template-rows: auto auto auto;
     grid-template-areas: "card1 card2" "card3 card4";
     align-items: center;
-    margin-left: 9.375rem;
+    justify-items: center;
+    margin-left: 120px;
     margin-right: 100px;
     gap: 1.875rem; }
   .talles {
@@ -325,8 +368,8 @@ p {
     grid-template-rows: auto auto auto;
     grid-template-areas: "card1" "card2" "card3" "card4";
     align-items: center;
-    margin-left: 12.5rem;
-    margin-right: 50px;
+    margin-left: none;
+    margin-right: none;
     gap: 1.875rem; }
   .main-productos {
     height: 104.375rem; } }
@@ -341,7 +384,9 @@ p {
     flex-direction: column;
     align-items: center; }
   .card-container {
-    margin-left: 9.375rem; } }
+    margin-left: none;
+    display: flex;
+    flex-direction: column; } }
 
 @media (max-width: 360px) {
   .card-container {

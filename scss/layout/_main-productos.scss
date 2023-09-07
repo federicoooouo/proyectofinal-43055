@@ -5,7 +5,7 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 37.5rem;
+    
 }
 
 .section-login{
@@ -142,8 +142,12 @@
     }
 }
 
+
+
 .card-containerdos{
 @include flex(row, space-evenly, center, 100px, none);
+
+
 .card2{
     width: 10.625rem;
     height: 300px;
@@ -168,6 +172,7 @@
     overflow: hidden;
 }
 }
+
 .div-tituloproducto{
     display: flex;
     justify-content: center;

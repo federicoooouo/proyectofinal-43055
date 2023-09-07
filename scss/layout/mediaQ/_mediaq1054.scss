@@ -13,4 +13,13 @@
         gap: 5px;
 
     }
+.card-container .grid-productos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+}
+.card-containerdos .grid-productos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }

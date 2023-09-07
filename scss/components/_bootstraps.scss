@@ -15,3 +15,15 @@ p{
 .btn-warning {
     background-color:$colores-botones;
 }
+
+.c-carrusel{
+    height: 480px;
+    width: 100%;
+}
+
+.c-img{
+    height: auto;
+    object-fit: cover;
+    width: 100%;
+    
+}

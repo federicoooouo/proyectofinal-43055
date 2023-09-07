@@ -33,6 +33,7 @@
 
 .galeria-grids{
 @include grid(repeat(4,25%),auto auto auto,center,center,"div1 div2 div3 div4",6.25rem);
+justify-items: center;
 .div1:hover{
     transform: scale(1.2,1.4);
     transition: 1s;
