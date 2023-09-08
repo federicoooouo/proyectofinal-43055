@@ -32,3 +32,39 @@
         transition: 0.5s;
     }
 }
+.cuatro{
+    background-image: url(/assets/img/notsignal.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap:100px;
+        padding-top: 100px;
+    }
+    div h1{
+        font-size: 100px;
+        color: white;
+    }
+    div p{
+        font-size: 60px;
+        color: white;
+    }
+    .btncuatro{
+        height: 50px;
+        width: 250px;
+        background: rgb(75, 36, 75);
+        border-radius: 20px;
+    }
+    .btncuatro a{
+        text-decoration: none;
+        color: antiquewhite;
+        letter-spacing: 4px;
+        
+    }
+}

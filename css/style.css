@@ -31,6 +31,36 @@
   transform: scale(1.2, 1.4);
   transition: 0.5s; }
 
+.cuatro {
+  background-image: url(/assets/img/notsignal.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  width: 100%; }
+  .cuatro div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px; }
+  .cuatro div h1 {
+    font-size: 100px;
+    color: white; }
+  .cuatro div p {
+    font-size: 60px;
+    color: white; }
+  .cuatro .btncuatro {
+    height: 50px;
+    width: 250px;
+    background: #4b244b;
+    border-radius: 20px; }
+  .cuatro .btncuatro a {
+    text-decoration: none;
+    color: antiquewhite;
+    letter-spacing: 4px; }
+
 .section-uno, .seccion-formulariosdos {
   display: flex;
   justify-content: center;
@@ -421,6 +451,10 @@ p {
   width: 100px;
   background: violet;
   border-radius: 20px; }
+
+.button a {
+  text-decoration: none;
+  color: black; }
 
 /**mediaqueris siempre en orden**/
 @media (max-width: 2561px) {
