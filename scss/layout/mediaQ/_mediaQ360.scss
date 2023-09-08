@@ -1,6 +1,33 @@
 @media(max-width:360px){
     .card-container{
         margin-left: 100px;
-    
+
+    }
+    }
+@media(max-width:360px) {
+    .index-news h3{
+        font-size: 15px;
+    }
+.index-news p{
+        font-size: 15px;
+
+    }
+    .email-div p{
+        font-size: 15px
+    }
+    .news-index .email-news h3{
+        font-size: 15px;
+    }
+    .email-div p{
+        font-size: 15px;
+    }
+    .email-div .checkbox{
+        flex-direction: column;
+    }
+    .prueba-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
     }
 }
