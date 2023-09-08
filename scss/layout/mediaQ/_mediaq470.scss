@@ -14,11 +14,10 @@
     .card-container{
         margin-left: none;
         display:flex ;
-        flex-direction: column
-        
-        ;
-        
-    
-    
+        flex-direction: column;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0px;
     }
 }

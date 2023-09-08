@@ -30,4 +30,9 @@
         align-items: center;
         justify-items: center;
     }
+    .nav-links {
+        flex-direction: column;
+        gap: 0px;
+
+    }
 }

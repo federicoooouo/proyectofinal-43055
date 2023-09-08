@@ -1,0 +1,10 @@
+@media(max-width:288px){
+    .grids-productos{
+        display: none;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0px;
+
+    }
+}
