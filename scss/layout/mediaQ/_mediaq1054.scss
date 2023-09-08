@@ -18,6 +18,12 @@
         grid-template-columns: repeat(2, 1fr);
         
     }
+    .card-containerinfo{
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        padding-top: 20px;
+    }
 }
 .card-containerdos .grid-productos{
     display: grid;
