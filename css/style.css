@@ -617,4 +617,12 @@ p {
     display: none; }
   .nav-links {
     flex-direction: column;
-    gap: 0px; } }
+    gap: 0px; }
+  .section-uno .h1index, .seccion-formulariosdos .h1index {
+    font-size: 15px; }
+  .section-uno .pindex, .seccion-formulariosdos .pindex {
+    font-size: 10px; } }
+
+@media (max-width: 210px) {
+  .card-container {
+    display: none; } }
