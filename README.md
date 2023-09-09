@@ -1,10 +1,12 @@
-# Tercera entrega-Coderhouse
+# PROYECTO FINAL DESAROLLO WEB -CODERHOUSE
 
 
-vitrauxcloths es una tienda virtual de accesorios y prendas
+vitrauxcloths es una tienda online de prendas y piezas de vitro y vidrio, personalizadas
 
 ## Herramientas aplicadas
 - html
 - css
 - sass
 - git/github
+- seo
+- bootstrap
