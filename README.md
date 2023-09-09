@@ -1,4 +1,4 @@
-# PROYECTO FINAL DESAROLLO WEB -CODERHOUSE
+# PROYECTO FINAL DESAROLLO WEB-CODERHOUSE
 
 
 vitrauxcloths es una tienda online de prendas y piezas de vitro y vidrio, personalizadas
